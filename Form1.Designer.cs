@@ -104,6 +104,7 @@ namespace Assignment_1
             // 
             // btn_minus
             // 
+            this.btn_minus.BackColor = System.Drawing.Color.IndianRed;
             this.btn_minus.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btn_minus.Font = new System.Drawing.Font("Segoe UI Semibold", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_minus.Location = new System.Drawing.Point(321, 171);
@@ -111,7 +112,7 @@ namespace Assignment_1
             this.btn_minus.Size = new System.Drawing.Size(100, 78);
             this.btn_minus.TabIndex = 52;
             this.btn_minus.Text = "-";
-            this.btn_minus.UseVisualStyleBackColor = true;
+            this.btn_minus.UseVisualStyleBackColor = false;
             this.btn_minus.Click += new System.EventHandler(this.btn_minus_Click);
             // 
             // btn_three
@@ -165,6 +166,7 @@ namespace Assignment_1
             // 
             // btn_multiply
             // 
+            this.btn_multiply.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.btn_multiply.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btn_multiply.Font = new System.Drawing.Font("Segoe UI Semibold", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_multiply.Location = new System.Drawing.Point(321, 87);
@@ -172,7 +174,7 @@ namespace Assignment_1
             this.btn_multiply.Size = new System.Drawing.Size(100, 78);
             this.btn_multiply.TabIndex = 47;
             this.btn_multiply.Text = "*";
-            this.btn_multiply.UseVisualStyleBackColor = true;
+            this.btn_multiply.UseVisualStyleBackColor = false;
             this.btn_multiply.Click += new System.EventHandler(this.btn_multiply_Click);
             // 
             // btn_six
