@@ -213,6 +213,7 @@ namespace Assignment_1
             // 
             // btn_clearEntry
             // 
+            this.btn_clearEntry.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.btn_clearEntry.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btn_clearEntry.Font = new System.Drawing.Font("Segoe UI Semibold", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_clearEntry.Location = new System.Drawing.Point(427, 3);
@@ -220,7 +221,7 @@ namespace Assignment_1
             this.btn_clearEntry.Size = new System.Drawing.Size(103, 78);
             this.btn_clearEntry.TabIndex = 43;
             this.btn_clearEntry.Text = "CE";
-            this.btn_clearEntry.UseVisualStyleBackColor = true;
+            this.btn_clearEntry.UseVisualStyleBackColor = false;
             this.btn_clearEntry.Click += new System.EventHandler(this.btn_clearEntry_Click);
             // 
             // btn_divide
@@ -273,7 +274,7 @@ namespace Assignment_1
             // 
             // txt_ansDisp
             // 
-            this.txt_ansDisp.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+            this.txt_ansDisp.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txt_ansDisp.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.txt_ansDisp.Font = new System.Drawing.Font("Segoe UI Semibold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -289,8 +290,8 @@ namespace Assignment_1
             // 
             // tabel_clc
             // 
-            this.tabel_clc.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-            | System.Windows.Forms.AnchorStyles.Left)
+            this.tabel_clc.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.tabel_clc.BackColor = System.Drawing.SystemColors.HighlightText;
             this.tabel_clc.ColumnCount = 5;
